@@ -1,5 +1,6 @@
 import { Component } from "./Component";
 
+// The Text Component Class
 export class TextComponent extends Component {
     public render() {
         let element = document.createElement("p")

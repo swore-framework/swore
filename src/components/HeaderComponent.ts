@@ -1,5 +1,6 @@
 import { Component } from "./Component";
 
+// A header class
 export class HeaderComponent extends Component {
     public render() {
         let element = document.createElement("h" + (this.attributes.level ?? "1"))
