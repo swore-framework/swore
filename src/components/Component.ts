@@ -1,15 +1,9 @@
-export type Attributes = {
-    [key: string]: any;
-}
-
 // Base Component class
 export class Component {
     public parent?: Component;
     public children: Component[];
-    public attributes: Attributes;
 
     constructor(parent?: Component) {
-        this.attributes = {};
         this.children = []
         this.parent = parent;
         parent?.children.push(this)
