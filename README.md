@@ -36,10 +36,10 @@ Here's a code example (which may or may not have been stolen from `index.ts`)
 let app = new AppComponent();
 
 let header = new HeaderComponent(app);
-header.attributes.text = "Hello, World!"
+header.text = "Hello, World!"
 
 let text = new TextComponent(app);
-text.attributes.text = "Hello, Swore!"
+text.text = "Hello, Swore!"
 
 app.render();
 ```
